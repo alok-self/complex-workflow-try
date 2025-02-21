@@ -19,7 +19,7 @@ jobs:
     - run: date
   job4:
     needs: [job1, job2, job3]
-    runs-on: unubtu-latest
+    runs-on: ubuntu-latest
     steps:
     - run: date
   
